@@ -1,0 +1,36 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.section_one {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
