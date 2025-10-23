@@ -1,17 +1,36 @@
 .body {
+    width: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 300px;
-    margin-right: 300px;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtext, a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 ul {
@@ -25,12 +44,76 @@ li {
 }
 
 .section_one {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    background-color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.section_two {
+    padding-inline: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.section_three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    margin: 50px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
     display: flex;
     justify-content: center;
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+button {
+    background-color: #3882f6;
+}
+
+.quote {
+    margin: 50px 300px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
 }
