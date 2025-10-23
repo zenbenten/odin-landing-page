@@ -1,6 +1,6 @@
 .body {
     width: 100%;
-    margin: 0;
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@ li {
 }
 
 .wrapper {
-    width: 400px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,8 +91,14 @@ h1 {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     background-color: #3882f6;
+    padding-inline: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    color: #F9FAF8;
+    border-radius: 8px;
 }
 
 .footer_wrapper {
@@ -107,7 +113,12 @@ h1 {
 }
 
 button {
+    border-radius: 8px;
     background-color: #3882f6;
+    padding: 5px 20px;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    font-weight: bold;
 }
 
 .quote {
@@ -116,4 +127,8 @@ button {
     font-weight: 300;
     font-size: 36px;
     color: #1F2937;
+}
+
+img {
+    border-radius: 8px;
 }
